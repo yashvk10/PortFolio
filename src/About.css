@@ -1,0 +1,134 @@
+
+
+.about h2{
+    /* padding-top: 100px; */
+    color: rgba(255, 255, 255, 0.92);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
+}
+
+.about-me .content h3 {
+   
+    font-weight: 700;
+    font-size: 26px;
+    
+  }
+  .about-me h2{
+    color: #ef59f2;
+  }
+  .about-me p{
+    font-size: 20px;
+    
+  }
+  
+  .about-me .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-me .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-me .content ul strong {
+    margin-right: 10px;
+  }
+  
+  .about-me .content ul i {
+    font-size: 15px;
+    margin-right: 5px;
+    color: #ef59f2;
+    line-height: 0;
+  }
+ 
+  .about-me .content p:last-child {
+    margin-bottom: 0;
+  }
+ 
+  #spantxt {
+    text-decoration: line-through;
+  }
+  
+@media (max-width: 992px) {
+    .about{
+        padding-top: 50px;
+        /* height: 100vh; */
+    }
+    .about-me p{
+        font-size: 15px;
+        
+      }
+      .about-me .content ul i {
+        font-size: 15px;
+       
+      }
+      .about-me .content ul li {
+        font-size: 15px;
+      }
+}
+
+.skills-box {
+  width: 100%;
+  
+margin-top: 30px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.skills-list {
+  margin-top: 20px;
+}
+
+.skills-list h3 {
+  margin-bottom: 10px;
+}
+
+.skills-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-list ul li {
+  margin-bottom: 5px;
+}
+
+.category-links button.active {
+  background-color: #ef59f2; /* Active button background color */
+  color: #fff; /* Active button text color */
+}
+.category-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; 
+  justify-content: center; /* Center align children horizontally */
+}
+.category-links li {
+  margin-right: 10px;
+}
+.category-links button {
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  padding: 10px 15px;
+  border: 2px solid #ef59f2; /* Outline */
+  background-color: transparent; 
+  
+}
+.category-links button:hover {
+  background-color: #ef59f2; /* Fill color on hover */
+  color: #fff; /* Text color on hover */
+}
+
+.category-links button.active {
+  font-weight: bold;
+  color: #333;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+}
